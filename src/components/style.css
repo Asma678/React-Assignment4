@@ -1,0 +1,113 @@
+body{
+  background-image: linear-gradient(pink, lightyellow, lightgreen);
+}
+
+#Head {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 15px 250px;
+}
+
+#Addstud {
+  position: relative;
+  top: 20px;
+  width: 200px;
+  border-radius: 25px;
+  font-weight: 540;
+  font-size: 22;
+  padding: 12px;
+  border: 2px solid black;
+
+}
+
+.inputs {
+  position: relative;
+  left: 50px;
+  width: 78%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  gap: 60px;
+  row-gap: 100px;
+}
+
+fieldset {
+  padding: 0;
+  border-color: 2px solid rgb(78, 75, 75);
+  
+} 
+
+.f1 {
+  height: 40px;
+  width: 520px;
+  background: transparent;
+  border: none;
+}
+
+.f1:focus {
+  background: white;
+  border: none;
+}
+
+#Table {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.4fr;
+  background-color: white;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.i1 {
+  padding: 10px;
+  height: 28px;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+}
+
+#i2 {
+position: relative;
+color: blue;
+top: -20px;
+}
+
+legend {
+  border-color: rgb(59, 58, 58);
+}
+
+.f3 {
+  position: relative;
+  top: 50px;
+  left: 600px;
+}
+
+.c3 {
+  position: relative;
+
+  left: -400px;
+}
+
+.c4 {
+  position: relative;
+  left: -250px;
+
+}
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: rgb(130, 183, 224);
+  padding: 15px;
+  font-size: 28px;
+  color: white;
+}
+
+.style {
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
